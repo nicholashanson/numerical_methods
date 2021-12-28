@@ -1,5 +1,6 @@
 clear all
 close all
+% initial guess for angle values
 x = [30,88,4];
 for i = 1:1000
     m = newton(2,0,0);
