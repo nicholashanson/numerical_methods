@@ -1,5 +1,5 @@
 % this code attempts to model a two-link open-chain mechanism (robotic arm) in three 
-% degress of freedom (rotation around the z-axis, rotation around first revolute pair(base and link 1), rotation around second revolute pair(link 1 and link 2)
+% degress of freedom (rotation around the z-axis, rotation around first revolute pair(base and link 1), rotation around second revolute pair(link 1 and link 2))
 % given end-effector co-oridinates, the algorithim attempts to find a configuration of turn-angles (inverse kinematics)
 
 clear all
