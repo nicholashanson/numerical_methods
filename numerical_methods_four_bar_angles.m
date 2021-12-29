@@ -30,7 +30,7 @@ end
 function n = newton(theta1,l1,l2,l3,l4)
     syms theta2 theta3
     j = jacobian([l1*cosd(theta1)+l2*cosd(theta2)-l3*cosd(theta3)-l4,l1*sind(theta1)+l2*sind(theta2)-l3*sind(theta3)],[theta2,theta3]);
-    i = inv(j);
+    i = inv(j); 
     f = [l1*cosd(theta1)+l2*cosd(theta2)-l3*cosd(theta3)-l4 l1*sind(theta1)+l2*sind(theta2)-l3*sind(theta3)];
     n = i*transpose(f);
 end
