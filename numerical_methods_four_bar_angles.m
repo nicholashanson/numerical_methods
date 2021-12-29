@@ -1,6 +1,6 @@
 % this code calculates the angles for a four bar mechanism
 % given a certain angle for the crank, the algorithm calculates the 
-%angles of the link and rocker with the x-axis
+% angles of the link and rocker with the x-axis
 
 clear all
 close all
