@@ -1,5 +1,5 @@
 % here we compare gauss-seidel and jacobi iteration to see which converges faster
-% these two methods are almost idential, the only difference being that when calcualting
+% these two methods are almost identical, the only difference being that when calcualting
 % x2 gauss-seidel uses the newly calculated value for x1 from the same iteration whereas
 % jacobi uses the x1 value from the previous iteration
 
